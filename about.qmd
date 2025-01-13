@@ -1,0 +1,55 @@
+---
+title: ""
+image: profile.png
+about:
+  template: jolla
+  image-width: 20%
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/guido-huyberechts-52a4b31b6/
+    - icon: orcid
+      text: ORCiD
+      href: https://orcid.org/0000-0002-8800-473X
+engine: knitr
+---
+
+<!--
+rel: me
+-->
+
+
+```{css}
+#| echo: false
+p {
+text-align: justify
+}
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+```
+
+## About
+silva rerum
+
+mixed type of blog, whatever I considered worthwhile en in welke taal het meest relevant. I kan al wat voorspellen, themes als heemkunde of locale geschiedenis die ik tegenkom, topic that catched my mind in technical and scientifical field, en under the memories tab _memopinions_: memo's, memories and probably some opinions as well. 
+
+Publications, well some publications of the hand of co-workers and or myself. With the remark that I am not an academic, worked a substantial amount of time in closed research within private companies of researach as a service. So publication is rare. 
+
+Never the less open research open source as far asusing public funds. Research data obtained thorugh funding by individuals or private companies I consider as deafualt (ownership by the funding parties). If the funding is by an agency or community the same rule applies.
+
+I only wish that funding agencies ould be more oops, i feel a post coming. 
+
+
+
+
+
+
+https://www.ugent.be/en/research/openscience
+
+
+
+  
+ResearcherID: C-6730-2012
+Scopus Author ID: 6701737326

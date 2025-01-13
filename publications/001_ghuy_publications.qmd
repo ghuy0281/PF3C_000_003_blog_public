@@ -1,0 +1,11 @@
+---
+date: "2024-12-04"
+title: "GHUY's publications"
+subtitle: "The list"
+---
+
+![](img/tower-of-babel.jpg)
+
+### Introduction
+
+[PUBLICATIONS]

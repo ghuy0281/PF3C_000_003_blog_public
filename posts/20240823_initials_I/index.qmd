@@ -1,0 +1,31 @@
+---
+title: "When initials collide (I)"
+subtitle: "A random exploration of first and family name initials"
+description: "Two-letter initials, setting the scene"
+author: "Guido Huyberechts"
+date: "2024-08-23"
+date-modified: last-modified
+reading-time: true
+file-modified: true
+draft: false
+freeze: true
+image: "img/chunk03_1_thumb.png"
+categories: [statistics, fun, EN]
+engine: knitr
+lang: en 
+---
+
+```{css}
+#| echo: false
+p {
+text-align: justify
+}
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+```
+
+## Introduction
+
+[PLACEHOLDER]

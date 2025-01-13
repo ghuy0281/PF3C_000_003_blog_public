@@ -1,0 +1,15 @@
+{
+  "hash": "a12bad81cc846848a2c4e85eba921ff5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Van dorpspastoor tot universiteitsrector\"\nsubtitle: \"Een fragment uit het leven van Rombout Van Kiel (1685-1739)\"\ndescription: \"Capita selecta uit de geschiedenis van Melsbroek\"\nauthor: \"Guido Huyberechts\"\ndate: \"2024-09-18\"\ndate-modified: last-modified\nreading-time: true\nfile-modified: true\ndraft: false\nfreeze: true\nimage: \"img/hallen.jpg\"\ncategories: [heemkunde, NL]\nengine: knitr\nlang: nl \n---\n\n::: {.cell}\n<style type=\"text/css\">\np {\ntext-align: justify\n}\nfigcaption {\n  margin: auto;\n  text-align: center;\n}\n</style>\n:::\n\n## Inleiding\n\n[PLACEHOLDER]\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

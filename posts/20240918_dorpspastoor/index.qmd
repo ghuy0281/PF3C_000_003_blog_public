@@ -1,0 +1,31 @@
+---
+title: "Van dorpspastoor tot universiteitsrector"
+subtitle: "Een fragment uit het leven van Rombout Van Kiel (1685-1739)"
+description: "Capita selecta uit de geschiedenis van Melsbroek"
+author: "Guido Huyberechts"
+date: "2024-09-18"
+date-modified: last-modified
+reading-time: true
+file-modified: true
+draft: false
+freeze: true
+image: "img/hallen.jpg"
+categories: [heemkunde, NL]
+engine: knitr
+lang: nl 
+---
+
+```{css}
+#| echo: false
+p {
+text-align: justify
+}
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+```
+## Inleiding
+
+[PLACEHOLDER]
+

@@ -1,0 +1,68 @@
+---
+title: "Template"
+subtitle: "This is a template for a post"
+description: "The description appears here"
+author: "Guido Huyberechts"
+date: "2024-08-15"
+date-modified: last-modified
+reading-time: true
+file-modified: true
+image: "img/laptop.jpg"
+categories: [news, EN]
+engine: knitr
+draft: false
+---
+
+```{css}
+#| echo: false
+p {
+text-align: justify
+}
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+```
+
+## Template
+
+This is a template for a post.
+Note that draft is set to true. if you do not want to show it.
+
+The css chunck arranges that the paragraphs (p) are justified and the figure captions (figcaption) are centered. Be sure to have engine: knitr in the YAML section.
+Since Here the very first thing was used a css code, Quarto will try to render this file using jupyter engine. So I have specified engine: knitr just to be in a safe side. But seems to be necessary indeed. Beware!
+
+
+For the time being in each qmd, maybe one day set globally?
+
+In the post:
+- the title appears on top.
+- the subtitle just below.
+- then the categories and then 
+- the description
+
+Below there is the author and the published date,
+Next modified date and then follows the text in the body.
+
+On the "home" one finds the image then the title.
+Next line is the calculated reading time,
+followed by the categories
+the description and finally 
+author name and publication date.
+
+This template is used by simply making a copy of the containing folder and editing the index file.
+
+Follows the description
+
+If a pdf needs to be generated, include the following in the YAML section (or something alike)
+
+<!-- 
+format:
+  pdf:
+    toc: false
+    toc-depth: 2
+    number-sections: false
+    number-depth: 2
+    output-file: "post20240823"
+    output-ext:  "pdf"
+-->

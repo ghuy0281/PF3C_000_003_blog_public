@@ -1,0 +1,23 @@
+---
+title: "SILVA RERUM"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  image-align: "left"
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title, author, description, categories, reading-time]
+  date-format: "DD MMMM YYYY"
+  feed: true
+page-layout: full
+title-block-banner: false
+---
+A chronicle with observations and reflections.
+
+
+<!-- Comment line                                                            
+<a rel="me" href="https://hachyderm.io/@vivalosburros"></a>
+-->
+

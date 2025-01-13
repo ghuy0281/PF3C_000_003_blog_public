@@ -1,0 +1,15 @@
+{
+  "hash": "bd9338541e9ab3529d38809d54667409",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"When initials collide (II)\"\nsubtitle: \"A random exploration of first and family name initials\"\ndescription: \"All letters are equal, but some letters are more equal than others\"\nauthor: \"Guido Huyberechts\"\ndate: \"2024-10-23\"\ndate-modified: last-modified\nreading-time: true\nfile-modified: true\ndraft: false\nfreeze: true\nimage: \"img/chunk06_1_thumb.png\"\ncategories: [statistics, fun, EN]\nengine: knitr\nlang: en \n---\n\n\n<!--\nformat:\n  pdf:\n    toc: false\n    toc-depth: 2\n    number-sections: false\n    number-depth: 2\n    output-file: \"post20240823\"\n    output-ext:  \"pdf\"\n-->\n\n\n::: {.cell}\n<style type=\"text/css\">\np {\ntext-align: justify\n}\nfigcaption {\n  margin: auto;\n  text-align: center;\n}\n</style>\n:::\n\n\n## Introduction\n\n[PLACEHOLDER]\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "5907443ff2453c94247f7d4c9e4fef51",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Welcome!\"\nsubtitle: \"Welcome to my little corner of the net ... \"\ndescription: \"Hear! Hear! I Have a Blog!\"\nauthor: \"Guido Huyberechts\"\ndate: \"2024-08-15\"\ndate-modified: last-modified\nreading-time: true\nfile-modified: true\nimage: \"img/laptop.jpg\"\ncategories: [news, EN]\nengine: knitr\ndraft: false\n---\n\n\nOr my _silva rerum_, as I called it. \n\nAccording to Wikipedia[^1], silva rerum (plural: _silvae rerum_, Latin for \"forest of things\"; also Polonized as sylwa, sometimes described as \"home chronicle\") was a multi-generational chronicle kept by many Polish and Lithuanian noble families from the 16^th^ through 18^th^ centuries.\n\n> _In historical Poland it was written by members of the szlachta (Polish nobility) as a diary or memoir for the entire family, recording family traditions, among other matters; they were not intended for a wider audience or printing (although there were a few exceptions); some were also lent to friends of the family, who were allowed to add their comments to them. It was added to by many generations, and contained various information: diary-type entries on current events, memoirs, letters, political speeches, copies of legal documents, gossips, jokes and anecdotes, financial documents, economic information (price of grain, etc.), philosophical musings, poems, genealogical trees, advice (agricultural, medical, moral) for the descendants and others. The wealth of information in silva is staggering; they contain anything that their authors wished to record for future generations._\n\nI am in no way Polish, Lithuanian, noble. I have no intention to include political speeches, financial documents, poems, nor private family matters or the like. But I like the concept and will probably include from time to time observations and reflections, for the future me or whoever finds the time and interest to read. \n\nThis is how I see this blog. Nothing special. But hey, I have a blog ... \n\n[^1]: https://en.wikipedia.org/wiki/Silva_rerum, 2024-08-15\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
