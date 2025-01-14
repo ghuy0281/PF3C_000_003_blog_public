@@ -11,6 +11,9 @@ about:
     - icon: orcid
       text: ORCiD
       href: https://orcid.org/0000-0002-8800-473X
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=6uMAHPUAAAAJ&hl=nl
 engine: knitr
 ---
 
@@ -31,25 +34,25 @@ figcaption {
 ```
 
 ## About
-silva rerum
 
-mixed type of blog, whatever I considered worthwhile en in welke taal het meest relevant. I kan al wat voorspellen, themes als heemkunde of locale geschiedenis die ik tegenkom, topic that catched my mind in technical and scientifical field, en under the memories tab _memopinions_: memo's, memories and probably some opinions as well. 
+Dit is mijn _silva rerum_ of bos der dingen. Een portie gemengd rond zaken die mij opvielen of interesseren vanuit het dagelijkse leven, (vroeger) werk of opleiding. 
 
-Publications, well some publications of the hand of co-workers and or myself. With the remark that I am not an academic, worked a substantial amount of time in closed research within private companies of researach as a service. So publication is rare. 
+In een mengelmoes van Nederlands and English, sort of, covering various topics in the technical and/or scientifical field, local history of heemkunde en wat nog allemaal. De toekomst zal het uitwijzen. 
 
-Never the less open research open source as far asusing public funds. Research data obtained thorugh funding by individuals or private companies I consider as deafualt (ownership by the funding parties). If the funding is by an agency or community the same rule applies.
+First there are the posts, short contributions. Well, at least aiming to stay below 20 min reading time. On whatever topic crosses my mind. If you are looking for a single topic blog: sorry, wrong address.
 
-I only wish that funding agencies ould be more oops, i feel a post coming. 
+Under "Memories" there are/will be memo's, memories and probably some opinions as well. Contributions are not limited in size, some could have a sort of educational flavour, but do not expect tutorials. The net has sufficient sources to learn from people that are more expert in their field than me. Het kan best zijn dat onderwerpen uit een of meerdere posts terugkomen in een langere meer gepolijste versie tussen de Memories, we zien wel.
 
+"Publications" are some publications of the hand of co-workers and/or myself. Below you will find links to a number of places where you can find an overview of scholarly publications. I will not replace the list here, but intend to pick some articles that bring back memories, need some critical comments or explanation. Do note that I am not an academic scholar. I worked a substantial amount of time in _closed_ research within private for-profit companies or not-for-profit organisations providing _Research-as-a-Service_ or contract research. Publications are rare in this context, but the research is not less challenging and rewarding.
 
+Mijn achtergrond? Zie het LinkedIn profiel onderaan voor een oplijsting van opleidingen, functies en bedrijven, ...
 
-
-
-
-https://www.ugent.be/en/research/openscience
-
-
-
-  
 ResearcherID: C-6730-2012
 Scopus Author ID: 6701737326
+
+<!-- 
+TO DO: 
+- expand a bit
+- check
+- icons
+-->
