@@ -3,29 +3,24 @@
     "listing": "/index.html",
     "items": [
       "/posts/20241023_initials_II/index.html",
+      "/posts/20241023_initials_III/index.html",
       "/posts/20240918_dorpspastoor/index.html",
       "/posts/20240823_initials_I/index.html",
-      "/posts/20240815_welcome/index.html",
-      "/posts/20240000_template/index.html"
-    ]
-  },
-  {
-    "listing": "/memories.html",
-    "items": [
-      "/memories/20250108_rome2/index.html",
-      "/memories/20241219_rome/index.html"
+      "/posts/20240815_welcome/index.html"
     ]
   },
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/001_ghuy_publications.html"
+      "/publications/20241219_rome/index.html",
+      "/publications/20241219_bij/index.html"
     ]
   },
   {
-    "listing": "/test.html",
+    "listing": "/stories.html",
     "items": [
-      "/test/001_testR.html"
+      "/stories/20241219_rome/index.html",
+      "/stories/20250108_rome2/index.html"
     ]
   }
 ]
