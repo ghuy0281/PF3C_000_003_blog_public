@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 20, 2025</p>
+      <p class="date-modified">January 24, 2025</p>
     </div>
   </div>
     
@@ -197,7 +197,7 @@ figcaption {
 <p>The green dashed circle corresponds to the probability of 0.1479 % (i.e.&nbsp;the equal probabilities for all letters case). The grey dotted circles refer to 0.5, 1.0, 1.5 and 2.0 % probabilities. Hence every lollipop ending up in the bull’s eye has certainly a higher probability than 2.0 %.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-6" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="!h" data-fig-align="center">
+<div id="fig-6" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="!h">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="img/chunk15.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" data-fig-pos="!h">
@@ -214,7 +214,7 @@ Figure&nbsp;1: Frequency of two-letter initials
 <p>It becomes clear that first names and family names with Q, U, X are not that common, surprise. However, also I, Y and Z are quite dark coloured on the family name side and hence are not that common. The brightest intersection can be found at MV and MD, confirming what we already knew. For the less common combinations we now also have a better visualisation of the relative frequencies.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-7" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="!h" data-fig-align="center">
+<div id="fig-7" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="!h">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="img/chunk16.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" data-fig-pos="!h">
@@ -234,12 +234,14 @@ Figure&nbsp;2: Frequency of two-letter initials (as log10(freq/minimum)
 </section>
 <section id="the-simulation" class="level2">
 <h2 class="anchored" data-anchor-id="the-simulation">The simulation</h2>
+<section id="comparing-the-methodologies" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-the-methodologies">Comparing the methodologies</h3>
 <p>Let us anyhow perform the simulation as planned, so that we can compare with the equal probability case.</p>
 <p>We use essentially the same code as in the previous posts, except for the fact that we use the probability distribution function for the 676 initials and a single random number draw.</p>
 <p>We now compare the number of persons ending up in the bin corresponding their initials, as obtained in our simulation <em>vs</em> the number that can be calculated from the probability distribution. For the time being, we do so for one experiment only, so drawing 1000 teams of 8 persons. For comparison, each bin would hold 11.83 persons in case of equal probability letters).</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-17a" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="!h" data-fig-align="center">
+<div id="fig-17a" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="!h">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-17a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="img/chunk17.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" data-fig-pos="!h">
@@ -253,11 +255,11 @@ Figure&nbsp;3: Validation plot (on a single experiment)
 </div>
 <p>In <a href="#fig-17a" class="quarto-xref">Figure&nbsp;3</a> we plotted a sort of “validation plot”. If the number in each bin would be exacly the same when counted during the simulation and when calculated from the probability distribution function one would have all data point on the green diagonal (with intercept equal to zero, and a unity slope).</p>
 <p>While all point gravitate around this line as expected, the graph also shows the distribution of the initial. A few with high probability and quite a lot lumped in the lower left corner.</p>
-<p>Fitting a straight line through all data points yield an intercept of -0.2684847 and a slope of 1.022687. Both in apparently reasonable agreement with our expectations.</p>
+<p>Fitting a straight line through all data points yield an intercept of -0.2424012 and a slope of 1.0204829. Both in apparently reasonable agreement with our expectations.</p>
 <p>It is tempting to attribute the deviations to the random nature of our simulations. This is the case, but also have a more detailed look into the dot cloud in the lower left corner (the black rectangle in the insert in <a href="#fig-18a" class="quarto-xref">Figure&nbsp;4</a>).</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-18a" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="!h" data-fig-align="center">
+<div id="fig-18a" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="!h">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-18a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="img/chunk18a.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" data-fig-pos="!h">
@@ -269,12 +271,12 @@ Figure&nbsp;4: Validation plot detail (a single experiment)
 </div>
 </div>
 </div>
-<p>If we calculate the number of persons in a specific bin from the probability and the number of persons, we end up with decimal numbers. We feel more comfortable with countng the persons from the simulation, then we have at least complete persons in each bin …</p>
+<p>If we calculate the number of persons in a specific bin from the probability we end up with decimal numbers. We feel more comfortable with counting the persons from the simulation, then we have at least complete persons in each bin …</p>
 <p>This of course has some influence on the fitting results, but especially notice something else. If we look at the simulation bins with, say, five persons added, we notice that they cover quite a range of bins (roughly from two to eleven) on the probability side. So if we would expect two persons based on probability, we can get five. But also if we would expect to encounter eleven persons. Quite a lot of other combinations exist of course, due to the random nature. That is not the problem. But how can we express the accuracy of the simulation and does this, well quite large deviations change with the number of expeced people (or the probability distribution)?</p>
 <p>Let’s plot the differences between the number of persons simulated and expected (based on probability theory) <em>vs</em> the expected number.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-19a" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="!h" data-fig-align="center">
+<div id="fig-19a" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="!h">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-19a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="img/chunk19a.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" data-fig-pos="!h">
@@ -286,8 +288,35 @@ Figure&nbsp;5: Comparing differences between methodologies (single experiment)
 </div>
 </div>
 </div>
+<p>We see that for the higher expected number the relative difference (expressed as (number(simulation)-number(probability))/number(probability))) approaches zero, as expected when both numbers are equal. On the other hand for lower numbers, meaning a lower probability of occurence of the corresponding initials, that we see more deviation. Some, where the number of simulation equals zero, the relative difference becomes minus one, and in other cases the simulation apparently large overestimate the outcome. Well, when dealing with smaller numbers one or two extra of course make a large difference.</p>
+<p>Is this due to the fact that we only show the results of one experiment, or is this indeed an example of wat we can name a rare event bias?</p>
+</section>
+<section id="exploring-the-full-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="exploring-the-full-experiment">Exploring the full experiment</h3>
+<p>When we would plot the data for 100 experiments as in <a href="#fig-17a" class="quarto-xref">Figure&nbsp;3</a>, it would be a complete mess. Therefore we calculate the average number of persons in each bin over the 100 experiments, and at the same time we calculate the standard deviation as well.</p>
+<p>We ran 100 experiments, so in fact we have a dataframe of 676 x 100 elements. Not that much, so we can store it directly. We could also use incremental calculation formula for mean and standard deviation if the number of experiments would become larger.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-20a" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-fig-pos="!h">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-20a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/chunk20a.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" data-fig-pos="!h">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-20a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Comparing differences between methodologies (100 simulations)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Now comparing <a href="#fig-20a" class="quarto-xref">Figure&nbsp;6</a> (for the average of 100 experiments) to <a href="#fig-17a" class="quarto-xref">Figure&nbsp;3</a> (for a single experiment, well, it looks muuuch better. But how about the differences? As we calculated a mean for each bin, we can also calculate the standard deviations.</p>
+</section>
+<section id="the-problem-of-rare-events" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem-of-rare-events">The problem of rare events</h3>
+<p>While the variance of a MC estimator provides an absolute measure of how widely distributed it is around its mean value, in most cases a relative measure of the relative accuracy of the MC estimator is more useful. Such a measure is provided by the coeficient of variation (cv) of a RV Z, which is deined as cv[Z] = stdev[Z] /E[Z], where as usual stdev[Z] = √ var[Z] is the standard deviation. More precisely, the cv gives the number of samples that are necessary on average to achieve a given accuracy. To apply this concept in our case, suppose Z = Qˆ N. Since var[Qˆ N] = var[f(X)]/N, we have cv[Qˆ N] = cvQ/ √ N, where (with some abuse of notation) we denoted cvQ = stdev[f]/Q. Therefore, if we want cv[Qˆ ] to be below a target value cvo, on average we will need N &gt; (cvQ/cvo) 2 . In particular, for an indicator function the above calculations yield cv[Qˆ ] = √ (1 − Q)/(NQ). We can now see the problem of rare event simulation in a more quantitative way: If Q ≪ 1, the number of samples needed on average to obtain a given value of cv is N ∼ 1/(Qcv2 o ). For example, if Q ∼ 10−6 and we want a cv of 0.1, we need N = 108 samples. In other words, the problem is that, if Q ≪ 1, the events that make I(y(x)) = 1 have a very low probability of occurring, and therefore, a large number of samples is needed even to observe one such event, and an even larger number of samples is needed to obtain a reliable estimate. As mentioned in Section 1, VRTs are a collection of methods aimed at overcoming (or at least alleviating) this problem. In the following, we will look in some detail at two of them, namely IS and the cross-entropy metho</p>
 
 
+</section>
 </section>
 
 
@@ -297,7 +326,16 @@ Figure&nbsp;5: Comparing differences between methodologies (single experiment)
 <li id="fn1"><p>https://statsandr.com/<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>https://statbel.fgov.be/nl/themas/bevolking/namen-en-voornamen<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section></div></main> <!-- /main -->
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{huyberechts2024,
+  author = {Huyberechts, Guido},
+  title = {When Initials Collide {(III)}},
+  date = {2024-10-26},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-huyberechts2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Huyberechts, Guido. 2024. <span>“When Initials Collide (III).”</span>
+October 26, 2024.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
