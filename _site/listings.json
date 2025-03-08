@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/20250223_meldebroek-p/index.html",
       "/posts/20250119_flamac-20/index.html",
       "/posts/20241023_initials_III/index.html",
       "/posts/20241023_initials_II/index.html",
@@ -13,13 +14,13 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/20241219_bij/index.html"
+      "/publications/20241204_lijst/index.html"
     ]
   },
   {
     "listing": "/stories.html",
     "items": [
-      "/stories/20240918_dorpspastoor/index.html",
+      "/stories/20240918_dorpspastoor-s/index.html",
       "/stories/20241219_rome/index.html"
     ]
   }
