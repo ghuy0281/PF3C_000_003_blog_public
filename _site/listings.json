@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/20250703_whale/index.html",
       "/posts/20250223_meldebroek-p/index.html",
       "/posts/20250119_flamac-20/index.html",
       "/posts/20241023_initials_III/index.html",
@@ -14,6 +15,8 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/publications/20250708_gastroprobe/index.html",
+      "/publications/20250706_kinetics/index.html",
       "/publications/20241204_lijst/index.html"
     ]
   },
